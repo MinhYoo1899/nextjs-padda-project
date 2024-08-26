@@ -10,13 +10,14 @@ const App = () => {
     return (
         <div>
             <h2>Link to 'tomato' Page</h2>
-            <Link href='/tomato'>
-                <Child />
-            </Link>
+            {/* <Link href='/tomato'> */}
+                {/* <Child /> */}
+            {/* </Link> */}
 
             <h2>Link to 'potato' Page</h2>
-            <Link href="/vegetable/potato">
-                <a>Move to 'vegetable/potato'</a>
+            <Link href="./src/app/pages/vegetable/potato.jsx">
+                Move to 'vegetable/potato'
+                {/* <a>Move to 'vegetable/potato'</a> */}
             </Link>
         </div>
     )
